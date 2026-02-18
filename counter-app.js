@@ -16,7 +16,7 @@ export class CounterApp extends DDDSuper(I18NMixin(LitElement)) {
 
   static get tag() {
     return "counter-app";
-  }
+  } 
 
   constructor() {
     super();
