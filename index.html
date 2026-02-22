@@ -21,7 +21,7 @@
       border-radius: var(--ddd-radius-lg);
     }
     counter-app:hover {
-      box-shadow: var(--ddd-boxShadow-sm);
+      box-shadow: var(--ddd-boxShadow-xl);
     }
     #example {
       --counter-app-font-size: var(--ddd-font-size-l);
@@ -37,11 +37,11 @@
     <h1>counter-app</h1>
     <!-- this is going to do whatever the tag's defaults are -->
     <h2>Default</h2>
-    <counter-app></counter-app>
+      <counter-app></counter-app>
+    
     <h2>Slot usage</h2>
-    <counter-app data-accent="2" data-primary="17"><div>Sample slot content</div></counter-app>
-    <h2>Property usage</h2>
-    <counter-app id="example" title="Sample property title"></counter-app>
+      <counter-app count="16" min="10" max="25"></counter-app>
+    
   </div>
   <script type="module" src="./counter-app.js"></script>
 
